@@ -24,7 +24,7 @@ func randNum(min, max int64) int64 {
 }
 
 type helloWorldResponse struct {
-	NumeroRandom int64 `json:"message"`
+	NumeroRandom int64 `json:"numero_random"`
 }
 
 type helloRandomRequest struct {
